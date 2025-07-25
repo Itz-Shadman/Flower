@@ -199,13 +199,13 @@ main{
   justify-content: center;
 }
 .box1{
-    background-image: url('../assets/deal-bloom.png');
+    background-image: url('assets/deal-bloom.png');
 }
 .box2{
-    background-image: url('../assets/deal-ana.png');
+    background-image: url('assets/deal-ana.png');
 }
 .box3{
-    background-image: url('../assets/deal-zabo.png');
+    background-image: url('assets/deal-zabo.png');
 }
 .promo-content {
   background-color: rgba(0, 0, 0, 0.5);
