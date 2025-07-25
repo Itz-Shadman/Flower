@@ -1,5 +1,4 @@
 body{
-    max-width: 100%;
     margin: 0 auto;
     background-color:#F5F8FF;
 }
@@ -30,7 +29,7 @@ nav li a{
     color: #8987A1;
 }
 .banner{
-    width: 1140px;
+    width: 80%;
     height: 461px;
 }
 .ban-head{
@@ -420,24 +419,24 @@ main{
 }
 @media screen and (max-width:578px) {
     body{
-       max-width: 100%;
+       width: 100%;
        margin: 0 auto;
     } 
     header{
-        max-width: 100%;
+        width: 100%;
         margin: 0 auto;
     }
     footer{
-       max-width: 100%;
+       width: 100%;
         margin: 0 auto;
     }
     main{
-       max-width: 100%;
+       width: 100%;
         margin: 0 auto;
     }
     nav{
         margin-top: 30px;
-        max-width: 100%;
+        width: 100%;
         justify-content: space-between;
         display: flex;
         height: 71px;
@@ -497,7 +496,7 @@ main{
         grid-template-columns: repeat(2,1fr);
         margin-right: 600px;
         margin-top: 20px;
-        max-width: 100%;
+        width: 100%;
     }
     .badge{
         visibility: hidden;
@@ -505,7 +504,7 @@ main{
     .lover{
         margin-top: 1100px;
         margin-left: 10px;
-        max-width: 100%;
+        width: 100%;
     }
     .plant-flower-lover{
         flex-direction: column;
@@ -528,7 +527,7 @@ main{
         width: 500px;
     }
     .deals-h{
-        max-width: 100%;
+        width: 100%;
         height: 117px;
         margin-top: 600px;
     }
@@ -539,7 +538,7 @@ main{
     }
     .deals-text{
         font-size: 14px;
-        max-width: 100%;
+        width: 100%;
         height: 68px;
         padding-top: 30px;
     }
@@ -581,7 +580,7 @@ main{
     padding-right: 100px; 
     }
     .footer-container{
-        max-width: 100%;
+       width: 100%;
         flex-direction: column;
         padding-left: 10px;
         padding-top: 60px;
